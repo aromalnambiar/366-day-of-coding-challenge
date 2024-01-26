@@ -1,8 +1,8 @@
 
-var twoSum = function(nums, target) {
+var twoSum = function(nums: number[], target: number) {
     let data = {};
 
-    for(i = 0; i < nums.length ; i++){
+    for(let i = 0; i < nums.length ; i++){
         let num = nums[i]
         let complement = target - num
 
@@ -17,6 +17,6 @@ var twoSum = function(nums, target) {
 
 let nums = [2,7,11,15]
 let target = 9
-result = twoSum(nums, target)
+let result = twoSum(nums, target)
 
 console.log(result)
