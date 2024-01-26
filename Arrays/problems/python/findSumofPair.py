@@ -16,20 +16,25 @@ find_sum_pair(my_list, target)
 
 
 # another method using dictionary and enumarate funtion
+class Solution:
+    def twoSum(self, arr, t):
+         # empty dictionary
+        data = {}
 
-def find_pair_ans(nums, target):
-    # empty dictionary
-    data = {}
-    
-    # i represents the index and num represents the elements in array of nums. The enumarate funtion will iterate throught the all element in the list
-    for i, num in enumerate(nums):
-        # find the complement
-        complement = target - num
+        # i represents the index and num represents the elements in array of nums. The enumarate funtion will iterate throught the all element in the list
+        for i , num in enumerate(arr):
+            # find the complement
+            complement = t - num
+
+            if complement in data:
+                return [data[complement], i]
+
+            data[num] = i
+
+nums = [2,7,11,15]
+target = 9
+sol = Solution()
+result = sol.twoSum(my_list, target)
+print(result)
+
         
-        if complement in data:
-            print(f"Indices of the two numbers are: {[data[complement], i]}")
-        
-        data[num] = i
-        
-        
-find_pair_ans(my_list, target)
