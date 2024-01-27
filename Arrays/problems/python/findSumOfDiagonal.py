@@ -15,3 +15,17 @@ def diagonal_sum(matrix):
 
 
 print(diagonal_sum(my_list))
+
+
+
+# another method
+
+def diagonal_sum_another(matrix):
+        
+    total = 0
+    for i in range(len(matrix)):
+         total += matrix[i][i]
+     
+    return total
+
+print(diagonal_sum_another(my_list))
