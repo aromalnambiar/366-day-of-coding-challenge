@@ -7,7 +7,7 @@ def pair_sum(nums, target):
     for i in range(len(nums)):
         for j in range(i, len(nums)):
             if nums[i] + nums[j] == target:
-                data.append(f"{nums[i]}  +  {nums[j]}")
+                data.append(f"{nums[i]}+{nums[j]}")
     
     return data        
         
