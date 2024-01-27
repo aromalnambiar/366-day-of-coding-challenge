@@ -24,7 +24,7 @@ def max_product(arr):
             max2 = arr[i]
 
 
-    return max1, max2
+    return max1 * max2
 
 
 print(max_product(my_list))
