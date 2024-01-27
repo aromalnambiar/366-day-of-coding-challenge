@@ -15,7 +15,7 @@ var twoSum = function(nums: number[], target: number) {
 
 };
 
-let nums = [2,7,11,15]
+let nums: any = [2,7,11,15]
 let target = 9
 let result = twoSum(nums, target)
 
