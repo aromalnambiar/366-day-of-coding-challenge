@@ -25,7 +25,7 @@ print(my_array)
 print("Step 4")
 my_array.insert(0, 0)
 print(my_array)
-
+ 
 
 # 5. Extent python arrays using extend() method
 print("Step 5")

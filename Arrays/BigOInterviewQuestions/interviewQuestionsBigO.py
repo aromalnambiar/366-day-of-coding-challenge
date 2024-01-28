@@ -1,7 +1,6 @@
-#  Created by Elshad Karimov on 3/26/20.
-#  Copyright © 2020 Elshad Karimov. All rights reserved.
-
 ################ Interview Questions #############
+
+
 #Question1
 def foo(array):
     sum = 0
@@ -13,7 +12,7 @@ def foo(array):
     print("Sum = "+str(sum)+", Product = "+str(product))
 
 ar1 = [1,2,3,4]
-foo(ar1)
+foo(ar1) 
 
 #Question2
 
