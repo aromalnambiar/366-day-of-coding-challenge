@@ -27,4 +27,11 @@ print(merge_dicts(dict1, dict2))
 
 
 # another method
- 
+def merge_dicts_another(dict1, dict2):
+    result = dict1.copy()
+    for key, value in dict2.items():
+        result[key] = result.get(key, 0) + value
+    return result
+
+
+print(merge_dicts_another(dict1, dict2))
