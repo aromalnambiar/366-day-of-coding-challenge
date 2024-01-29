@@ -23,3 +23,8 @@ def merge_dicts(d1, d2):
 
 
 print(merge_dicts(dict1, dict2))        
+
+
+
+# another method
+ 
