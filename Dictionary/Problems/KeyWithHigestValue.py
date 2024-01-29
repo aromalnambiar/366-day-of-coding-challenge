@@ -13,3 +13,11 @@ def max_value_key(my_dict):
     return max_key
 
 print(max_value_key(my_dict))
+
+
+# another method
+
+def max_value_key(my_dict):
+    return max(my_dict, key=my_dict.get)
+
+print(max_value_key(my_dict))
