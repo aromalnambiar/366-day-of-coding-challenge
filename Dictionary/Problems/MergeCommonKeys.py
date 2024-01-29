@@ -14,11 +14,7 @@ def merge_dicts(d1, d2):
                 new_dict[keys1] = d1[keys1] 
                 
             if keys2 not in d1 and i == (len(d1) - 1):
-                new_dict[keys2] = d2[keys2]
-                
-        # new_dict[keys1] = d1[keys1]    
-                
-                
+                new_dict[keys2] = d2[keys2]    
     return new_dict
 
 
